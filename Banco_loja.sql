@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS loja;
+USE loja;
+
+CREATE TABLE IF NOT EXISTS roupa (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(255),
+    tamanho VARCHAR(50),
+    preco DECIMAL(10,2)
+);

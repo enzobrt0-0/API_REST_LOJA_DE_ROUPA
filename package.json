@@ -1,0 +1,29 @@
+{
+  "name": "loja_de_roupas",
+  "version": "1.0.0",
+  "description": "api rest para uma loja de roupas",
+  "keywords": [
+    "api",
+    "rest",
+    "roupa"
+  ],
+  "license": "ISC",
+  "author": "ENZO BARRETO",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.12.1",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
